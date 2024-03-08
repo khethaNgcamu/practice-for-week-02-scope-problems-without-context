@@ -29,6 +29,13 @@ Example 4:
 ***********************************************************************/
 function countDownTimer(num) {
   // Your code here
+  return function countdown() {
+    if (num-- > 0) {
+        return countdown;
+    } else {
+        return "Happy New Year!";
+    }
+};
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
