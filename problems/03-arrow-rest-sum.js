@@ -12,6 +12,15 @@ arrowRestSum(0); // => 0
 
 const arrowRestSum = (...otherNums) => {
   // Your code here
+  let sum = 0;
+// use reduce
+//  return otherNums.reduce((sum, current) => sum + current, 0);
+
+  otherNums.forEach((element) => {
+    sum += element
+  });
+
+  return sum;
 };
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
