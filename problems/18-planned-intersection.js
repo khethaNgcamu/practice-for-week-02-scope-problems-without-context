@@ -28,6 +28,13 @@ function plannedIntersect(firstArr) {
 }
 }
 
+// short method 
+// function plannedIntersect(firstArr) {
+//   return function(secondArr) {
+//       return firstArr.filter(item => secondArr.includes(item));
+//   }
+// }
+
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*************************/
 try {
   module.exports = plannedIntersect;
