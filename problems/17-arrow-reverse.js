@@ -18,7 +18,7 @@ let result3 = reverseStr("potato"); // returns "otatop"
 // const reverseStr = str => str.split('').reverse().join('');
 
 // long method:
-let reserved = (string){
+let reserved = (string) => {
   let newStr = "";
 
   for(let i = string.length - 1; i >= 0; i--){
