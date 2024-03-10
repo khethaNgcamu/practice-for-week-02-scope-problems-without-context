@@ -14,6 +14,21 @@ let result3 = reverseStr("potato"); // returns "otatop"
 
 // Your code here
 
+// short method:
+// const reverseStr = str => str.split('').reverse().join('');
+
+// long method:
+let reserved = (string){
+  let newStr = "";
+
+  for(let i = string.length - 1; i >= 0; i--){
+    let char = string[i];
+
+    newStr += char;
+     }
+     return newStr;
+}
+
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 try {
     module.exports = reverseStr;
